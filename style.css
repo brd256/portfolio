@@ -119,59 +119,37 @@ h1 { font-size: 3rem; margin-bottom: 0.5rem; }
 }
 
 
-.contact-info {
+.contact-row {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.copy-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 8px 16px;
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-.copy-item:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.copy-item a {
+.contact-link {
     color: var(--accent);
     text-decoration: none;
-    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
 }
 
-.copy-btn {
-    background: transparent;
-    border: 1px solid var(--text-secondary);
+.contact-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.separator {
     color: var(--text-secondary);
-    padding: 2px 8px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.8rem;
-    transition: all 0.2s;
+    font-weight: 300;
 }
 
-.copy-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-}
-
-.copy-btn.success {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: var(--bg-color);
-}
-
+/* Ensure the download button still has space below the row */
 .download-container {
     margin-top: 10px;
 }
+
+
 
 .download-btn {
     display: inline-block;
