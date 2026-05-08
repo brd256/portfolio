@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Dorame | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-key.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+
+<header id="about">
+    <div class="container">
+        <h1>Brian Dorame</h1>
+        <p class="location">Flagstaff, AZ</p>
+        <p class="tagline">Full Stack Developer | Computer Science Student at NAU</p>
+        
+        <div class="contact-info">
+    <div class="copy-item">
+        <a href="mailto:briandorame27@gmail.com">briandorame27@gmail.com</a>
+        <button class="copy-btn" onclick="copyText('briandorame27@gmail.com', this)">
+            <span class="btn-text">Copy</span>
+        </button>
+    </div>
+    
+    <div class="copy-item">
+        <a href="tel:4805939700">(480) 593-9700</a>
+        <button class="copy-btn" onclick="copyText('4805939700', this)">
+            <span class="btn-text">Copy</span>
+        </button>
+    </div>
+
+    <div class="download-container">
+        <a href="/documents/Resume.pdf" download="Brian_Dorame_Resume.pdf" class="download-btn">
+            Download PDF Resume
+        </a>
+    </div>
+</div>
+    </div>
+</header>
+
+
+<section id="skills" class="container">
+    <h2>Technical Qualifications</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Software Engineering</h3>
+            <p>Agile/Scrum, SDLC, Requirement Analysis, & Version Control (Git)</p>
+        </div>
+        <div class="skill-card">
+            <h3>Artificial Intelligence</h3>
+            <p>Heuristic Search, Game Playing (Minimax/Alpha-Beta), & Knowledge Representation</p>
+        </div>
+        <div class="skill-card">
+            <h3>Full Stack</h3>
+            <p>Node.js, Express, JavaScript (ES Modules)</p>
+        </div>
+        <div class="skill-card">
+            <h3>Databases</h3>
+            <p>SQL & Relational Data Modeling</p>
+        </div>
+        <div class="skill-card">
+            <h3>Theory</h3>
+            <p>Formal Language Theory, Automata, & Recursive Grammar</p>
+        </div>
+        <div class="skill-card">
+            <h3>Communication</h3>
+            <p>Bilingual (English/Spanish) & Actionable Peer Feedback</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2>Featured Projects</h2>
+    <div class="project-list">
+        <div class="project">
+            <h3>Collaborative Software Development (CS 386)</h3>
+            <p class="date">Fall 2025</p>
+            <ul>
+                <li>Applied <strong>Agile methodologies</strong> and Scrum framework to manage project sprints and deliverables.</li>
+                <li>Utilized Git for version control and collaborative coding within a team environment.</li>
+                <li>Conducted thorough requirement analysis and system design to ensure project scalability.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Halma Game AI (CS 470)</h3>
+            <p class="date">April 2026</p>
+            <ul>
+                <li>Implemented an intelligent agent using <strong>Minimax</strong> and <strong>Alpha-Beta Pruning</strong>.</li>
+                <li>Developed heuristic evaluation functions to assess board states.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <div class="edu-card">
+            <h3>Northern Arizona University</h3>
+            <p>B.S. in Computer Science | Expected May 2027</p>
+            <ul>
+                <li>Dean's List (2023-2024)</li>
+                <li>Lumberjack Scholarship Recipient</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Brian Dorame | Built with HTML, CSS, and JS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
